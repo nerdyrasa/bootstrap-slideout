@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bootstrap + Slideout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div class="container">
+    <nav id="navbar-main">
+        <header>
+            <p class="text-center">
+                <br><img class="svg" src="http://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="Bootstrap"
+                         width="124" height="124">
+            </p>
+        </header>
+        <h4>Links</h4>
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+            <li><a href="https://mango.github.io/slideout/">Slideout.js
+                <small>by Mango</small>
+            </a></li>
+        </ul>
+        <h4>Other links</h4>
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="#">Link active</a></li>
+            <li><a href="#">Other link</a></li>
+            <li><a href="#">Whatever</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+
+        <header class="page-header">
+            <h1>Bootstrap + Slideout.js</h1>
+
+            <p class="lead">A touch slideout navigation menu for your mobile web apps.</p>
+        </header>
+        <article>
+            <button type="button" class="toggle-button btn btn-primary btn-lg" data-toggle="button" aria-pressed="false"
+                    autocomplete="off">☰ Menu
+            </button>
+        </article>
+
+    </main>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>-->
+
+<script src="app.js"></script>
+</body>
+</html>
